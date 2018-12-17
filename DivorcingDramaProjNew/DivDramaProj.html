@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      height: 78px
+    
+    }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+    .body {
+        background-color: grey  
+    }
+    
+    
+    .fa {
+  padding: 32 px;
+  font-size: 50px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: 48px;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: 48px;
+  color: white;
+}
+
+.fa-instagram {
+  background: 48px;
+  color: white;
+}
+
+.fa-youtube {
+  background: 48px;
+  color: white;
+}
+
+.fa-pinterest {
+  font-size: 48px ;
+  color: white;
+}
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 75%; /* Set width to 100% */
+      margin: auto;
+      height:50%;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+ /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+        } 
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand-left" height="300"></a><img src="images/newdivdrama.jpg" width="300" height="75"><br /></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Add font awesome icons -->
+        <a href="https://www.facebook.com/Divorcing-Drama-726674947715467/?modal=admin_todo_tour" class="fa fa-facebook" style="font-size:40px; padding: 20px" class="fa"></a>
+        <a href="https://www.instagram.com/divorcingdrama/" class="fa fa-instagram" style="font-size:40px" class="fa"></a>
+        <a href="https://www.youtube.com/channel/UCaEJfNQksX9zkpIxBciyc8g" class="fa fa-youtube" style="font-size:40px" class="fa"></a>
+        <a href="http://www.pinterest.com/divorcingdrama" class="fa fa-pinterest" style="font-size:40px" class="fa"></a>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/DIV.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>You're Not Alone!</h3>
+          <p>Meet others going through some of the exact same things.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/KD.png" style="height: 50%" alt="Image">
+        <div class="carousel-caption">
+          <h3>Kailyn Dabe</h3>
+          <p>My Experience</p>
+        </div>      
+      </div>
+      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container-fluid text-center">    
+    <div class="row content">
+      
+      <div class="col-sm-8 text-center" style="padding: 20px"></div>
+       
+        <p><iframe width="750" height="603" src="https://www.youtube.com/embed/ikKmRWx-kEQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <hr>
+
+<div class="container text-center">    
+  <h3>What We Do</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="images/KD.png" class="img-responsive" style="width:75%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="well" style="padding-right: 50px">
+            <p>Some text..</p>
+           </div>
+
+    <div class="col-sm-4"> 
+      <img src="images/DIV.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well" style="height: 75px">
+       <p>Some text..</p>
+      </div>
+      
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+    <h3><a href="https://docs.google.com/forms/d/1rjKgrV4IcfHBVV2r1I-Fx1gi_NVRyoIxEgvNtVzGH-A/edit">Click here for the online survey</a></h3>
+        <h3>ABOUT</h3>
+        <p>The divorce rate has been falling for more than three decades. That fact is not news, but it still surprises a lot of people. And so when Claire Cain Miller wrote about the trend for The Upshot this week, several readers asked for more detail, with some citing a Huffington Post article questioning the official Census Bureau data on the trends. As one of the researchers who has studied the issue, I thought it worth digging deeper into the data.
+  
+          In one sense, divorce is easy to measure, because it leaves a paper trail, in the form of divorce certificates on file at county courthouses. At the end of each year, most states ask each county how many new divorce certificates they’ve issued, and the states report the total number to the federal government. The federal government then calculates a divorce rate, measured as the number of divorces per thousand people.
+          
+          By this measure, the divorce rate peaked at 5.3 divorces per thousand people in 1981, before falling to 4.7 in 1990, and it has since fallen further to 3.6 in 2011, the most recent year for which data are available. Of course, the marriage rate has also fallen over this period. But even measuring divorces relative to the population that could plausibly get divorced — the number of people who are married — shows that divorce peaked in 1979, and has fallen by about 24 percent since.</p>
+  </footer>
+
+</body>
+</html>
