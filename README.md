@@ -1,2 +1,2 @@
 # DivDrama Landing Page
-Static Page for Passion Project.
+ Static Page for Passion Project.
